@@ -71,9 +71,6 @@ Siga as etapas abaixo para configurar e executar o projeto:
     <img align="center" alt="phpMyAdmin" src="https://img.shields.io/badge/phpMyAdmin-4479A1?style=for-the-badge&logo=phpmyadmin&logoColor=white">
 </div>
 
-# Copyright ©
-Copyright © Developed by: Kleber Alves Bezerera Junior - Sênior Developer 2022.
-
 # Contato
 
 1. kleberjuniorr63@gmail.com
