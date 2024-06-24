@@ -48,7 +48,7 @@ Siga as etapas abaixo para configurar e executar o projeto:
 `docker-compose up -d --build`
 
 5. Após o download e a criação dos contêineres, acesse o contêiner app através do terminal:
-`docker exec -it apllication-server-app /bin/bash`
+`docker exec -it application-server-app /bin/bash`
 
 6. Dentro do contêiner app, execute o seguinte comando:
 `composer install`

@@ -1,4 +1,5 @@
-version: "3.7"
+version: "3.8"
+
 services:
 
   app:
@@ -7,8 +8,8 @@ services:
         user: kleberalv
         uid: 1000
       dockerfile: Dockerfile
-    image: php8-apllication-server
-    container_name: apllication-server-app
+    image: php8-application-server
+    container_name: application-server-app
     restart: unless-stopped
     working_dir: /var/www/
     volumes:

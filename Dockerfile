@@ -23,10 +23,11 @@ RUN apt-get update && apt-get install -y \
     git-core \
     python3 \
     gnupg \
-    nano
+    nano \
+    bash
 
-# Adiciona repositório do Node.js e instala a versão 14.x
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+# Adiciona repositório do Node.js e instala a versão 16.x
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get -y install nodejs
 
 # Limpa o cache e remove listas de pacotes
